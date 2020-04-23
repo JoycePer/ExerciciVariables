@@ -1,0 +1,38 @@
+p
+public class PhaseThree {
+	
+	public static void main(String[] args) {
+		for(int i=1948; i<1993; i+=4) {
+			
+			System.out.print(i + " " + "was a leap year" + "\n");}
+		
+		{
+			
+			boolean birthYear = false;
+			if ( birthYear == true) {
+			System.out.println("You were born in a leap year");
+			}
+			else {
+			System.out.println("You were not born in a leap year, but you're still awesome!");
+			}
+		
+		}
+
+	}
+
+}
+
+RESULT ON SCREEN:
+1948 was a leap year
+1952 was a leap year
+1956 was a leap year
+1960 was a leap year
+1964 was a leap year
+1968 was a leap year
+1972 was a leap year
+1976 was a leap year
+1980 was a leap year
+1984 was a leap year
+1988 was a leap year
+1992 was a leap year
+You were not born in a leap year, but you're still awesome!
